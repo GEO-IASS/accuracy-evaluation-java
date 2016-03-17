@@ -26,6 +26,7 @@ A java implementation for calculating accuracy metrics (Accuracy, Error Rate, Pr
 
         Evaluation evaluation = new Evaluation(confusion);
         evaluation.print();
+  }
 ```
 
 Output
