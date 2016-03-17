@@ -20,7 +20,6 @@ public class AccuracyEvaluationExample {
         };
 
         Confusion confusion = new Confusion(targets, outputs);
-        //confusion.confusion(targets, outputs);
         confusion.print();
 
         Evaluation evaluation = new Evaluation(confusion);
