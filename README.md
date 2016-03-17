@@ -1,7 +1,11 @@
-# accuracy-evaluation-java
-A java implementation for calculating accuracy metrics (Accuracy, Error Rate, Precision(micro/macro), Recall(micro/macro), Fscore(micro/macro)) for classification tasks.
+# Accuracy evaluation 
+A java implementation for calculating accuracy metrics (Accuracy, Error Rate, Precision(micro/macro), Recall(micro/macro), Fscore(micro/macro)) for 
+ classification tasks based on paper [A systematic analysis of performance measures for classification tasks]
+ (http://www.sciencedirect.com/science/article/pii/S0306457309000259) and MATLAB confusion implementation.
 
-#Uses
+# Uses
+
+```java
   public static void main(String[] args) {
         // targets: SxQ (S:Classes; Q:Samples)
         // outputs: SxQ (S:Classes; Q:Samples)
@@ -22,11 +26,12 @@ A java implementation for calculating accuracy metrics (Accuracy, Error Rate, Pr
 
         Evaluation evaluation = new Evaluation(confusion);
         evaluation.print();
-    }
-    
-Output:
-  Confusion Results
-  =======================================
+```
+
+Output
+--
+Confusion Results
+
   	Confusion value
   		c = 0.17
   	Confusion Matrix
@@ -42,8 +47,9 @@ Output:
   		0.0 0.0 1.0 1.0 
   		0.0 0.33 0.67 1.0 
   
-  Accuracy Evaluation Results
-  =======================================
+  
+Accuracy Evaluation Results
+  
   	Average Accuracy(%)       : 91.11
   	Error(%)                  : 8.89
   	Precision (Micro)(%)      : 88.89
