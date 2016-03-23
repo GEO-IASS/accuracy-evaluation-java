@@ -61,5 +61,6 @@ Accuracy Evaluation Results
   	Fscore (Macro)(%)         : 91.58
 
 
-# NOTE
-For C++ Implementation visit [accuracy-evaluation-cpp](https://github.com/ashokpant/accuracy-evaluation-cpp.git)
+# Note
+For C++ Implementation, visit [accuracy-evaluation-cpp](https://github.com/ashokpant/accuracy-evaluation-cpp.git)
+For MATLAB Implementation, visit [accuracy-evaluation-cpp](https://github.com/ashokpant/accuracy-evaluation-matlab.git)
