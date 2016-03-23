@@ -1,6 +1,6 @@
 # Accuracy evaluation 
-A java implementation for calculating accuracy metrics (Accuracy, Error Rate, Precision(micro/macro), Recall(micro/macro), Fscore(micro/macro)) for 
- classification tasks based on paper [A systematic analysis of performance measures for classification tasks]
+A java implementation for calculating the accuracy metrics (Accuracy, Error Rate, Precision(micro/macro), Recall(micro/macro), Fscore(micro/macro)) for 
+ classification tasks based on the paper [A systematic analysis of performance measures for classification tasks]
  (http://www.sciencedirect.com/science/article/pii/S0306457309000259) and MATLAB confusion implementation.
 
 # Uses
@@ -29,8 +29,8 @@ A java implementation for calculating accuracy metrics (Accuracy, Error Rate, Pr
   }
 ```
 
-Output
---
+# Output
+
 Confusion Results
 
   	Confusion value
@@ -62,5 +62,7 @@ Accuracy Evaluation Results
 
 
 # Note
+
 For C++ Implementation, visit [accuracy-evaluation-cpp](https://github.com/ashokpant/accuracy-evaluation-cpp.git)
-For MATLAB Implementation, visit [accuracy-evaluation-cpp](https://github.com/ashokpant/accuracy-evaluation-matlab.git)
+
+For MATLAB Implementation, visit [accuracy-evaluation-matlab](https://github.com/ashokpant/accuracy-evaluation-matlab.git)
